@@ -42,7 +42,7 @@ export default function DashboardPage() {
   return (
     <PlatformLayout
       title="AXIOM Command Center"
-      subtitle={`Welcome Back, Coach Yacine  ·  ${dateString}`}
+      subtitle={`Welcome Back, Coach Aya  ·  ${dateString}`}
     >
       {/* 1. KPI Cards — first element visible after header */}
       <div className="mb-5">

@@ -18,7 +18,7 @@ interface AuthStore {
 
 const MOCK_USER: User = {
   id: 1,
-  name: 'Coach Yacine',
+  name: 'Coach Aya',
   role: 'Performance Coach',
   organization: 'AXIOM Sports Lab',
   email: 'coach@axiomsports.ai',
