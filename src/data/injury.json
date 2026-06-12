@@ -1,0 +1,30 @@
+{
+  "athleteId": 1,
+  "overall": { "score": 12, "level": "low", "label": "Low Risk" },
+  "zones": [
+    { "zone": "Hamstring", "score": 15, "level": "moderate", "color": "#f59e0b" },
+    { "zone": "Knee", "score": 8, "level": "low", "color": "#22c55e" },
+    { "zone": "Ankle", "score": 5, "level": "low", "color": "#22c55e" },
+    { "zone": "Lower Back", "score": 10, "level": "low", "color": "#22c55e" },
+    { "zone": "Groin", "score": 7, "level": "low", "color": "#22c55e" },
+    { "zone": "Calf", "score": 9, "level": "low", "color": "#22c55e" }
+  ],
+  "riskFactors": [
+    { "factor": "Training Load Spike", "impact": "high", "description": "18% load increase over previous microcycle." },
+    { "factor": "Hamstring Flexibility", "impact": "moderate", "description": "Active straight leg raise within normal limits but trending." },
+    { "factor": "Previous Injury History", "impact": "moderate", "description": "Grade 1 hamstring strain 8 months prior." },
+    { "factor": "Recovery Quality", "impact": "low", "description": "Sleep averaging 7.5h — slightly below target." }
+  ],
+  "weeklyTrend": [
+    { "week": "W1", "overall": 18, "hamstring": 22, "knee": 10 },
+    { "week": "W2", "overall": 16, "hamstring": 20, "knee": 9 },
+    { "week": "W3", "overall": 14, "hamstring": 17, "knee": 8 },
+    { "week": "W4", "overall": 12, "hamstring": 15, "knee": 8 }
+  ],
+  "recommendations": [
+    "Continue eccentric hamstring loading programme — 3x/week Nordic curl protocol.",
+    "Monitor acute-to-chronic workload ratio weekly.",
+    "Ice bath post-training sessions exceeding 90 minutes.",
+    "Sports massage therapy twice weekly during high-load block."
+  ]
+}

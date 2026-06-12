@@ -1,0 +1,46 @@
+{
+  "categories": {
+    "Performance": [
+      "Sprint performance improved by 6.2% over the past 7 days.",
+      "High-speed running distance exceeded weekly target by 14%.",
+      "Peak sprint velocity reached 34.2 km/h — personal record.",
+      "Acceleration profile trending upward — positive adaptation response.",
+      "Ball-related performance metrics above 85th percentile this week."
+    ],
+    "Recovery": [
+      "Recovery score below optimal threshold — reduced training load recommended.",
+      "HRV trending downward over 3 consecutive days — monitor closely.",
+      "Sleep quality dropped to 6.2h average — below the 7.5h target.",
+      "Hydration score below optimal range — fluid intake protocol required.",
+      "Post-match recovery showing positive trajectory — cleared for full session."
+    ],
+    "Fatigue": [
+      "Potential overtraining risk detected — fatigue index at 68%.",
+      "Elevated fatigue markers detected following high-intensity block.",
+      "Neuromuscular fatigue score elevated — plyometric load reduction advised.",
+      "Perceived exertion trending upward — cumulative load monitoring required.",
+      "Central fatigue indicators detected — rest day insertion recommended."
+    ],
+    "Injury Risk": [
+      "Hamstring injury risk elevated — 18% above baseline.",
+      "Asymmetry index detected in single-leg jump assessment.",
+      "Ankle stability score declined — proprioceptive training recommended.",
+      "Groin loading pattern flagged — sports medicine review suggested.",
+      "Knee valgus tendency detected — corrective strength programme initiated."
+    ],
+    "Training Load": [
+      "Training load increased by 18% — within progressive overload parameters.",
+      "Acute-to-chronic workload ratio at 1.42 — elevated zone, monitor closely.",
+      "Weekly volume 12% above planned prescription — adjust next microcycle.",
+      "High-intensity interval density optimal — positive performance adaptation expected.",
+      "Session RPE averaging 7.8/10 — intensity management required."
+    ],
+    "Biomechanics": [
+      "Movement symmetry score improved to 88% — rehabilitation progressing well.",
+      "Running mechanics efficiency index at 91 — elite benchmark exceeded.",
+      "Jump technique asymmetry detected — left-right differential at 9%.",
+      "Hip mobility restriction flagged — soft tissue work recommended.",
+      "Ground contact time optimised — stride efficiency at season best."
+    ]
+  }
+}

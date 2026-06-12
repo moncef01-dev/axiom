@@ -1,0 +1,60 @@
+{
+  "devices": [
+    {
+      "id": "d1",
+      "brand": "Apple",
+      "name": "Apple Watch Ultra 2",
+      "type": "Smartwatch",
+      "icon": "watch",
+      "color": "#1C1C1E",
+      "connected": true,
+      "lastSync": "2026-06-12T08:42:00Z",
+      "battery": 78,
+      "firmware": "10.3.2",
+      "metrics": ["Heart Rate", "HRV", "Sleep", "SpO2", "Steps", "Calories", "Workout"],
+      "connectedAthletes": 8
+    },
+    {
+      "id": "d2",
+      "brand": "Garmin",
+      "name": "Garmin Forerunner 965",
+      "type": "GPS Watch",
+      "icon": "gps",
+      "color": "#00ADEF",
+      "connected": true,
+      "lastSync": "2026-06-12T07:18:00Z",
+      "battery": 91,
+      "firmware": "12.18",
+      "metrics": ["GPS Distance", "Speed Zones", "Training Load", "VO2max", "Stress", "HRV"],
+      "connectedAthletes": 12
+    },
+    {
+      "id": "d3",
+      "brand": "Polar",
+      "name": "Polar Vantage V3",
+      "type": "Sports Computer",
+      "icon": "heart",
+      "color": "#C8102E",
+      "connected": true,
+      "lastSync": "2026-06-11T19:30:00Z",
+      "battery": 54,
+      "firmware": "3.2.1",
+      "metrics": ["Running Power", "Cadence", "Ground Contact", "Stride Length", "Orthostatic Test"],
+      "connectedAthletes": 6
+    },
+    {
+      "id": "d4",
+      "brand": "WHOOP",
+      "name": "WHOOP 4.0",
+      "type": "Recovery Tracker",
+      "icon": "activity",
+      "color": "#FF5A1F",
+      "connected": false,
+      "lastSync": "2026-06-09T06:00:00Z",
+      "battery": 12,
+      "firmware": "5.4.0",
+      "metrics": ["Recovery Score", "HRV", "Resting HR", "Strain", "Sleep Stages"],
+      "connectedAthletes": 5
+    }
+  ]
+}

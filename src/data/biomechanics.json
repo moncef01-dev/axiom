@@ -1,0 +1,33 @@
+{
+  "athleteId": 1,
+  "scores": {
+    "runningMechanics": { "value": 91, "label": "Running Mechanics", "benchmark": 82, "trend": "+3" },
+    "movementSymmetry": { "value": 88, "label": "Movement Symmetry", "benchmark": 84, "trend": "+2" },
+    "jumpTechnique": { "value": 84, "label": "Jump Technique", "benchmark": 80, "trend": "+1" },
+    "mobility": { "value": 79, "label": "Mobility", "benchmark": 77, "trend": "-1" },
+    "movementQuality": { "value": 86, "label": "Movement Quality", "benchmark": 81, "trend": "+4" }
+  },
+  "radarProfile": [
+    { "metric": "Running Mechanics", "value": 91, "benchmark": 82 },
+    { "metric": "Movement Symmetry", "value": 88, "benchmark": 84 },
+    { "metric": "Jump Technique", "value": 84, "benchmark": 80 },
+    { "metric": "Mobility", "value": 79, "benchmark": 77 },
+    { "metric": "Movement Quality", "value": 86, "benchmark": 81 },
+    { "metric": "Stability", "value": 82, "benchmark": 79 }
+  ],
+  "weeklyTrend": [
+    { "week": "W1", "mechanics": 87, "symmetry": 84, "jump": 81, "mobility": 80, "quality": 82 },
+    { "week": "W2", "mechanics": 88, "symmetry": 85, "jump": 82, "mobility": 79, "quality": 83 },
+    { "week": "W3", "mechanics": 89, "symmetry": 86, "jump": 83, "mobility": 80, "quality": 84 },
+    { "week": "W4", "mechanics": 91, "symmetry": 88, "jump": 84, "mobility": 79, "quality": 86 }
+  ],
+  "bodyZones": [
+    { "zone": "left_knee", "score": 88, "risk": "low" },
+    { "zone": "right_knee", "score": 91, "risk": "low" },
+    { "zone": "left_hip", "score": 79, "risk": "moderate" },
+    { "zone": "right_hip", "score": 82, "risk": "low" },
+    { "zone": "lower_back", "score": 75, "risk": "moderate" },
+    { "zone": "left_ankle", "score": 85, "risk": "low" },
+    { "zone": "right_ankle", "score": 88, "risk": "low" }
+  ]
+}

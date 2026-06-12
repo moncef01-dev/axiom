@@ -1,0 +1,25 @@
+{
+  "commandCenter": {
+    "athletesActive": 42,
+    "highRiskAthletes": 3,
+    "recoveryAlerts": 5,
+    "reportsGenerated": 128,
+    "todaysSessions": 17,
+    "connectedDevices": 31
+  },
+  "kpis": {
+    "performanceScore": { "value": 87, "trend": "+3.2", "status": "optimal", "comparison": "vs last week" },
+    "readinessScore": { "value": 82, "trend": "+1.8", "status": "good", "comparison": "vs last week" },
+    "recoveryScore": { "value": 78, "trend": "-2.1", "status": "moderate", "comparison": "vs last week" },
+    "injuryRisk": { "value": 12, "trend": "-0.5", "status": "low", "comparison": "% overall" },
+    "weeklyLoad": { "value": 645, "trend": "+18", "status": "elevated", "comparison": "AU (arbitrary units)" }
+  },
+  "recentActivity": [
+    { "id": 1, "time": "09:14", "type": "session", "message": "Morning speed session completed — 14 athletes", "severity": "info" },
+    { "id": 2, "time": "10:32", "message": "Yacine Benali — HRV below threshold (48ms)", "type": "alert", "severity": "warning" },
+    { "id": 3, "time": "11:05", "message": "Recovery report generated for Squad A", "type": "report", "severity": "info" },
+    { "id": 4, "time": "13:20", "message": "Karim Meziane cleared for full training", "type": "clearance", "severity": "success" },
+    { "id": 5, "time": "14:48", "message": "Match performance report — vs USM Alger uploaded", "type": "report", "severity": "info" },
+    { "id": 6, "time": "16:00", "message": "High fatigue detected in 3 squad members", "type": "alert", "severity": "warning" }
+  ]
+}

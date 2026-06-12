@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "name": "Coach Yacine",
+  "firstName": "Yacine",
+  "role": "Performance Coach",
+  "organization": "AXIOM Sports Lab",
+  "avatar": "/avatars/coach.jpg",
+  "email": "coach@axiomsports.ai",
+  "phone": "+213 555 0142",
+  "license": "UEFA A License",
+  "experience": "12 years",
+  "specialization": "Physical Performance & Biomechanics",
+  "certifications": ["NSCA-CSCS", "UEFA A", "EXOS Performance Specialist"],
+  "joinedDate": "2022-08-01"
+}

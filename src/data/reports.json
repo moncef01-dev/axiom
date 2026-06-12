@@ -1,0 +1,71 @@
+{
+  "reports": [
+    {
+      "id": "r1",
+      "type": "athlete_performance",
+      "title": "Athlete Performance Report",
+      "description": "Comprehensive individual performance metrics across speed, agility, endurance and power outputs.",
+      "icon": "TrendingUp",
+      "lastGenerated": "2026-06-10T14:32:00Z",
+      "format": "PDF",
+      "pages": 12,
+      "category": "Performance"
+    },
+    {
+      "id": "r2",
+      "type": "recovery",
+      "title": "Recovery & Readiness Report",
+      "description": "HRV, sleep quality, hydration and fatigue index analysis with readiness predictions.",
+      "icon": "Heart",
+      "lastGenerated": "2026-06-11T08:15:00Z",
+      "format": "PDF",
+      "pages": 8,
+      "category": "Recovery"
+    },
+    {
+      "id": "r3",
+      "type": "biomechanics",
+      "title": "Biomechanics Analysis Report",
+      "description": "Running mechanics, movement symmetry, jump technique and mobility assessment.",
+      "icon": "Zap",
+      "lastGenerated": "2026-06-09T16:00:00Z",
+      "format": "PDF",
+      "pages": 16,
+      "category": "Biomechanics"
+    },
+    {
+      "id": "r4",
+      "type": "training_load",
+      "title": "Training Load Report",
+      "description": "Acute-to-chronic workload ratio, session intensity distribution and load progression.",
+      "icon": "BarChart2",
+      "lastGenerated": "2026-06-08T11:45:00Z",
+      "format": "PDF",
+      "pages": 10,
+      "category": "Load"
+    },
+    {
+      "id": "r5",
+      "type": "team",
+      "title": "Team Performance Report",
+      "description": "Squad-wide performance overview including readiness scores, injury map and top performers.",
+      "icon": "Users",
+      "lastGenerated": "2026-06-07T09:00:00Z",
+      "format": "PDF",
+      "pages": 20,
+      "category": "Team"
+    },
+    {
+      "id": "r6",
+      "type": "match",
+      "title": "Match Performance Report",
+      "description": "GPS-based match analytics with speed zones, heat maps, work rate and positional benchmarks.",
+      "icon": "FileText",
+      "lastGenerated": "2026-06-09T20:00:00Z",
+      "format": "PDF",
+      "pages": 24,
+      "category": "Match",
+      "isShowcase": true
+    }
+  ]
+}

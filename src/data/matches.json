@@ -1,0 +1,116 @@
+{
+  "speedZones": [
+    { "zone": "Walk", "minSpeed": 0, "maxSpeed": 7, "color": "#333", "percentage": 38 },
+    { "zone": "Jog", "minSpeed": 7, "maxSpeed": 14, "color": "#555", "percentage": 28 },
+    { "zone": "Run", "minSpeed": 14, "maxSpeed": 19, "color": "#666", "percentage": 17 },
+    { "zone": "High Run", "minSpeed": 19, "maxSpeed": 25, "color": "#8FBF00", "percentage": 10 },
+    { "zone": "Sprint", "minSpeed": 25, "maxSpeed": 30, "color": "#BFFF00", "percentage": 5 },
+    { "zone": "Max Sprint", "minSpeed": 30, "maxSpeed": 99, "color": "#DEFF40", "percentage": 2 }
+  ],
+  "metrics": {
+    "totalDistance": { "value": 11840, "unit": "m", "benchmark": 11200, "percentile": 72 },
+    "highSpeedRunDistance": { "value": 892, "unit": "m", "benchmark": 750, "percentile": 81 },
+    "sprintDistance": { "value": 248, "unit": "m", "benchmark": 200, "percentile": 78 },
+    "maxSpeed": { "value": 34.2, "unit": "km/h", "benchmark": 32.5, "percentile": 85 },
+    "accelerations": { "value": 47, "unit": "count", "benchmark": 42, "percentile": 74 },
+    "decelerations": { "value": 41, "unit": "count", "benchmark": 38, "percentile": 71 },
+    "totalLoad": { "value": 720, "unit": "AU", "benchmark": 680, "percentile": 68 },
+    "energyExpended": { "value": 1320, "unit": "kcal", "benchmark": 1200, "percentile": 73 },
+    "playerLoad": { "value": 8.4, "unit": "AU/min", "benchmark": 7.9, "percentile": 70 }
+  },
+  "halfComparison": {
+    "firstHalf": {
+      "distance": 6240,
+      "highSpeedRuns": 12,
+      "sprints": 7,
+      "workRate": 8.8,
+      "topSpeed": 33.8
+    },
+    "secondHalf": {
+      "distance": 5600,
+      "highSpeedRuns": 9,
+      "sprints": 5,
+      "workRate": 7.9,
+      "topSpeed": 32.4
+    }
+  },
+  "workRateTimeline": [
+    { "minute": 5, "load": 9.2 }, { "minute": 10, "load": 10.1 }, { "minute": 15, "load": 9.8 },
+    { "minute": 20, "load": 8.9 }, { "minute": 25, "load": 9.5 }, { "minute": 30, "load": 9.1 },
+    { "minute": 35, "load": 8.7 }, { "minute": 40, "load": 8.4 }, { "minute": 45, "load": 7.8 },
+    { "minute": 50, "load": 9.3 }, { "minute": 55, "load": 8.6 }, { "minute": 60, "load": 8.1 },
+    { "minute": 65, "load": 7.5 }, { "minute": 70, "load": 7.2 }, { "minute": 75, "load": 6.8 },
+    { "minute": 80, "load": 6.5 }, { "minute": 85, "load": 6.2 }, { "minute": 90, "load": 5.9 }
+  ],
+  "positionBenchmark": {
+    "position": "Right Winger",
+    "eliteAverage": {
+      "totalDistance": 11200,
+      "highSpeedRuns": 750,
+      "sprints": 200,
+      "maxSpeed": 32.5,
+      "load": 680
+    },
+    "teamAverage": {
+      "totalDistance": 10800,
+      "highSpeedRuns": 690,
+      "sprints": 178,
+      "maxSpeed": 31.8,
+      "load": 640
+    }
+  },
+  "radarScores": {
+    "runningVolume": 82,
+    "sprintOutput": 88,
+    "speedCapacity": 91,
+    "workRate": 79,
+    "technicalEfficiency": 84,
+    "overallRank": 85
+  },
+  "performanceScore": { "overall": 87, "grade": "A", "status": "Elite Performance" },
+  "matchInfo": {
+    "date": "2026-06-08",
+    "match": "AXIOM FC vs USM Alger",
+    "competition": "Ligue Professionnelle 1",
+    "opponent": "USM Alger",
+    "minutesPlayed": 90,
+    "result": "2-1 W",
+    "venue": "Stade du 5 Juillet",
+    "weather": "Clear, 24°C",
+    "pitchCondition": "Excellent – Natural Grass"
+  },
+  "aiObservations": [
+    { "severity": "info", "text": "Total distance of 11,840m exceeds elite winger average by 5.7%." },
+    { "severity": "warning", "text": "Distance output decreased 10.3% in second half — fatigue pattern detected." },
+    { "severity": "warning", "text": "Sprint count dropped from 7 to 5 between halves — neuromuscular fatigue likely." },
+    { "severity": "info", "text": "Max speed of 34.2 km/h achieved in 65th minute — above elite benchmark." },
+    { "severity": "success", "text": "High-speed running distance 18.9% above positional benchmark." },
+    { "severity": "alert", "text": "Player load per minute declined 10.2% in final 20 minutes — recovery session recommended." }
+  ],
+  "recoveryAdvice": [
+    { "icon": "droplets", "title": "Hydration Protocol", "description": "Target 750ml electrolyte fluid intake within 30 minutes post-match." },
+    { "icon": "moon", "title": "Sleep Optimisation", "description": "Minimum 9 hours sleep recommended. Pre-sleep protein: 40g casein." },
+    { "icon": "activity", "title": "Next Session", "description": "48-hour recovery window before next high-intensity session. Active recovery only on Day 1." },
+    { "icon": "heart", "title": "HRV Monitoring", "description": "Monitor morning HRV for 3 consecutive days before returning to full training load." }
+  ],
+  "coachingRecommendations": [
+    "Implement second-half substitution protocols for high-intensity positions — fatigue threshold reached at ~65 minutes.",
+    "Increase conditioning volume by 8% next microcycle to address second-half endurance deficit.",
+    "Focus sprint-specific training on maintaining velocity output beyond 70 minutes.",
+    "Introduce plyometric power maintenance sessions to preserve sprint output in late game.",
+    "Schedule GPS load review at 45-minute mark of future matches to enable data-driven substitution decisions."
+  ],
+  "reportMetadata": {
+    "reportId": "AXM-2026-0614-001",
+    "analyst": "Coach Yacine",
+    "dataSource": "AXIOM GPS Tracker v4.2 / Polar H10",
+    "generatedDate": "2026-06-09",
+    "version": "2.1"
+  },
+  "availableMatches": [
+    { "id": "m1", "label": "vs USM Alger — 08 Jun 2026", "date": "2026-06-08" },
+    { "id": "m2", "label": "vs MCA — 01 Jun 2026", "date": "2026-06-01" },
+    { "id": "m3", "label": "vs CR Belouizdad — 24 May 2026", "date": "2026-05-24" },
+    { "id": "m4", "label": "vs ES Sétif — 17 May 2026", "date": "2026-05-17" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "athleteId": 1,
+  "current": {
+    "sleepHours": 7.8,
+    "sleepQuality": 82,
+    "hrv": 62,
+    "hydration": 84,
+    "fatigue": 22,
+    "recoveryScore": 78,
+    "restingHR": 48,
+    "muscleSoreness": 3.2,
+    "mood": 7.5,
+    "nutrition": 78
+  },
+  "readinessStatus": "good",
+  "recommendations": [
+    { "priority": "high", "text": "Increase daily water intake to minimum 3.5L — hydration currently suboptimal." },
+    { "priority": "medium", "text": "Target 8 hours sleep tonight — current 7.8h is below recovery optimum for training load." },
+    { "priority": "low", "text": "Post-session ice bath recommended — 10 minutes at 12°C." },
+    { "priority": "medium", "text": "Increase protein intake to 2.4g/kg bodyweight to support adaptation." }
+  ],
+  "weeklyTrend": [
+    { "day": "Mon", "hrv": 64, "sleep": 8.1, "hydration": 88, "fatigue": 18, "recovery": 82 },
+    { "day": "Tue", "hrv": 58, "sleep": 7.4, "hydration": 82, "fatigue": 28, "recovery": 72 },
+    { "day": "Wed", "hrv": 61, "sleep": 7.9, "hydration": 85, "fatigue": 24, "recovery": 76 },
+    { "day": "Thu", "hrv": 55, "sleep": 7.2, "hydration": 79, "fatigue": 32, "recovery": 68 },
+    { "day": "Fri", "hrv": 59, "sleep": 7.6, "hydration": 81, "fatigue": 26, "recovery": 74 },
+    { "day": "Sat", "hrv": 68, "sleep": 8.4, "hydration": 90, "fatigue": 14, "recovery": 88 },
+    { "day": "Sun", "hrv": 62, "sleep": 7.8, "hydration": 84, "fatigue": 22, "recovery": 78 }
+  ]
+}
