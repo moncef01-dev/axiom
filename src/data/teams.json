@@ -7,7 +7,7 @@
     "stadium": "Stade du 5 Juillet",
     "city": "Algiers",
     "country": "Algeria",
-    "coach": "Coach Yacine",
+    "coach": "Coach Aya",
     "staffSize": 12
   },
   "squadSummary": {
@@ -23,30 +23,115 @@
   "injurySummary": {
     "total": 3,
     "byZone": [
-      { "zone": "Hamstring", "count": 1, "severity": "moderate" },
-      { "zone": "Ankle", "count": 1, "severity": "mild" },
-      { "zone": "Knee", "count": 1, "severity": "severe" }
+      {
+        "zone": "Hamstring",
+        "count": 1,
+        "severity": "moderate"
+      },
+      {
+        "zone": "Ankle",
+        "count": 1,
+        "severity": "mild"
+      },
+      {
+        "zone": "Knee",
+        "count": 1,
+        "severity": "severe"
+      }
     ],
     "projectedReturns": [
-      { "player": "Bilal Kherif", "zone": "Knee", "estimatedReturn": "2026-06-28", "status": "rehabilitation" }
+      {
+        "player": "Bilal Kherif",
+        "zone": "Knee",
+        "estimatedReturn": "2026-06-28",
+        "status": "rehabilitation"
+      }
     ]
   },
   "topPerformers": [
-    { "rank": 1, "athleteId": 6, "name": "Rayan Amrani", "avatar": "/avatars/athlete-06.jpg", "position": "CAM", "score": 91, "trend": "+4.2" },
-    { "rank": 2, "athleteId": 2, "name": "Karim Meziane", "avatar": "/avatars/athlete-02.jpg", "position": "CM", "score": 89, "trend": "+2.1" },
-    { "rank": 3, "athleteId": 1, "name": "Yacine Benali", "avatar": "/avatars/athlete-01.jpg", "position": "RW", "score": 87, "trend": "+3.2" },
-    { "rank": 4, "athleteId": 8, "name": "Hamza Chérif", "avatar": "/avatars/athlete-08.jpg", "position": "GK", "score": 85, "trend": "+1.5" },
-    { "rank": 5, "athleteId": 4, "name": "Sofiane Hadjadj", "avatar": "/avatars/athlete-04.jpg", "position": "ST", "score": 84, "trend": "+0.8" }
+    {
+      "rank": 1,
+      "athleteId": 6,
+      "name": "Rayan Amrani",
+      "avatar": "/avatars/athlete-06.jpg",
+      "position": "CAM",
+      "score": 91,
+      "trend": "+4.2"
+    },
+    {
+      "rank": 2,
+      "athleteId": 2,
+      "name": "Karim Meziane",
+      "avatar": "/avatars/athlete-02.jpg",
+      "position": "CM",
+      "score": 89,
+      "trend": "+2.1"
+    },
+    {
+      "rank": 3,
+      "athleteId": 1,
+      "name": "Yacine Benali",
+      "avatar": "/avatars/athlete-01.jpg",
+      "position": "RW",
+      "score": 87,
+      "trend": "+3.2"
+    },
+    {
+      "rank": 4,
+      "athleteId": 8,
+      "name": "Hamza Chérif",
+      "avatar": "/avatars/athlete-08.jpg",
+      "position": "GK",
+      "score": 85,
+      "trend": "+1.5"
+    },
+    {
+      "rank": 5,
+      "athleteId": 4,
+      "name": "Sofiane Hadjadj",
+      "avatar": "/avatars/athlete-04.jpg",
+      "position": "ST",
+      "score": 84,
+      "trend": "+0.8"
+    }
   ],
   "loadMonitoring": {
     "weeklyData": [
-      { "day": "Mon", "team": 480, "target": 500 },
-      { "day": "Tue", "team": 720, "target": 680 },
-      { "day": "Wed", "team": 540, "target": 550 },
-      { "day": "Thu", "team": 880, "target": 820 },
-      { "day": "Fri", "team": 620, "target": 640 },
-      { "day": "Sat", "team": 0, "target": 0 },
-      { "day": "Sun", "team": 420, "target": 400 }
+      {
+        "day": "Mon",
+        "team": 480,
+        "target": 500
+      },
+      {
+        "day": "Tue",
+        "team": 720,
+        "target": 680
+      },
+      {
+        "day": "Wed",
+        "team": 540,
+        "target": 550
+      },
+      {
+        "day": "Thu",
+        "team": 880,
+        "target": 820
+      },
+      {
+        "day": "Fri",
+        "team": 620,
+        "target": 640
+      },
+      {
+        "day": "Sat",
+        "team": 0,
+        "target": 0
+      },
+      {
+        "day": "Sun",
+        "team": 420,
+        "target": 400
+      }
     ],
     "acuteChronicRatio": 1.18,
     "weeklyTotal": 3660,
@@ -54,23 +139,89 @@
   },
   "recoveryOverview": {
     "teamHRV": [
-      { "day": "Mon", "hrv": 62 }, { "day": "Tue", "hrv": 58 }, { "day": "Wed", "hrv": 64 },
-      { "day": "Thu", "hrv": 55 }, { "day": "Fri", "hrv": 61 }, { "day": "Sat", "hrv": 70 },
-      { "day": "Sun", "hrv": 67 }
+      {
+        "day": "Mon",
+        "hrv": 62
+      },
+      {
+        "day": "Tue",
+        "hrv": 58
+      },
+      {
+        "day": "Wed",
+        "hrv": 64
+      },
+      {
+        "day": "Thu",
+        "hrv": 55
+      },
+      {
+        "day": "Fri",
+        "hrv": 61
+      },
+      {
+        "day": "Sat",
+        "hrv": 70
+      },
+      {
+        "day": "Sun",
+        "hrv": 67
+      }
     ],
     "teamSleep": [
-      { "day": "Mon", "hours": 7.4 }, { "day": "Tue", "hours": 7.1 }, { "day": "Wed", "hours": 7.8 },
-      { "day": "Thu", "hours": 6.9 }, { "day": "Fri", "hours": 7.3 }, { "day": "Sat", "hours": 8.2 },
-      { "day": "Sun", "hours": 7.9 }
+      {
+        "day": "Mon",
+        "hours": 7.4
+      },
+      {
+        "day": "Tue",
+        "hours": 7.1
+      },
+      {
+        "day": "Wed",
+        "hours": 7.8
+      },
+      {
+        "day": "Thu",
+        "hours": 6.9
+      },
+      {
+        "day": "Fri",
+        "hours": 7.3
+      },
+      {
+        "day": "Sat",
+        "hours": 8.2
+      },
+      {
+        "day": "Sun",
+        "hours": 7.9
+      }
     ],
     "averageHRV": 62.4,
     "averageSleep": 7.5,
     "averageHydration": 81
   },
   "readinessDistribution": [
-    { "range": "90-100", "count": 3, "label": "Peak" },
-    { "range": "75-89", "count": 10, "label": "Good" },
-    { "range": "60-74", "count": 6, "label": "Moderate" },
-    { "range": "0-59", "count": 5, "label": "Low" }
+    {
+      "range": "90-100",
+      "count": 3,
+      "label": "Peak"
+    },
+    {
+      "range": "75-89",
+      "count": 10,
+      "label": "Good"
+    },
+    {
+      "range": "60-74",
+      "count": 6,
+      "label": "Moderate"
+    },
+    {
+      "range": "0-59",
+      "count": 5,
+      "label": "Low"
+    }
   ]
 }
